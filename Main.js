@@ -9,19 +9,19 @@ const bot = new MusicBot({
     botClient: client 
 });
 
-client.on('message', message => { // When the bot receives a message
-       if(message.content === bot.prefix + "help") //bot prefix and command
-       {
-        message.channel.send("-Music Commands- /play config.prefix.pause /resume");
-        }
-        bot.onMessage(message); // The music-system must read the message, to check if it is a music command and execute it.
-});
-
 client.on('ready', () =>{
     client.user.setStatus('Online')
     console.log('Connected!')
 })
 //rest of your code
+
+client.on('message', message => { // When the bot receives a message
+       if(message.content === bot.prefix + "help") //bot prefix and command
+       {
+        message.channel.send("**Music Commands: ** " + "PLAY: " + bot.prefix + "play " + " PAUSE: " + bot.prefix + "pause" + " RESUME: " + bot.prefix +"resume");
+        }
+        bot.onMessage(message); // The music-system must read the message, to check if it is a music command and execute it.
+});
 
 //always remember to never share your token with anyone
 client.login(config.token)
