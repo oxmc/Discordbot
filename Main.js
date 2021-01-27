@@ -9,10 +9,12 @@ const bot = new MusicBot({
     botClient: client 
 });
 
-client.on('message', message => { // When the bot receive a message
-    if(message.content.startsWith(bot.prefix)) { // If the message starts with your prefix
+client.on('message', message => { // When the bot receives a message
+       if(message.content === bot.prefix + "help") //bot prefix and command
+       {
+        message.channel.send("-Music Commands- /play config.prefix.pause /resume");
+        }
         bot.onMessage(message); // The music-system must read the message, to check if it is a music command and execute it.
-    };
 });
 
 client.on('ready', () =>{
