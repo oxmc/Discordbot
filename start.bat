@@ -1,5 +1,5 @@
 @echo off
 :main
-node YOURBOTFILE.js
+node Main.js
 echo Restarting Bot..
 goto main
