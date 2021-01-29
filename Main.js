@@ -6,7 +6,7 @@ const MusicBot = require('discord-music-system');
 const bot = new MusicBot({
     botPrefix: config.prefix,
     ytApiKey: config.ytapikey,
-    botClient: client 
+    botClient: client
 });
 
 client.on('ready', () =>{
@@ -20,6 +20,10 @@ client.on('message', message => { // When the bot receives a message
        {
         message.channel.send("**Music Commands: ** " + "PLAY: " + bot.prefix + "play " + " PAUSE: " + bot.prefix + "pause" + " RESUME: " + bot.prefix +"resume");
         }
+        if(message.content === bot.prefix + "version") //bot prefix and command
+        {
+         message.channel.send("**Bot Version: ** " + config.version);
+         }
         bot.onMessage(message); // The music-system must read the message, to check if it is a music command and execute it.
 });
 
@@ -27,7 +31,7 @@ client.on('message', message => { // When the bot receives a message
 client.login(config.token)
 
 function Restart() {
-setTimeout(function(){ 
+setTimeout(function(){
 CrashToRestart
  }, 7200000);
 }
