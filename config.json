@@ -2,5 +2,6 @@
 {
 	"prefix": "!",
 	"token": "your-token-goes-here",
-	"ytapikey": "your-key-goes-here"
+	"ytapikey": "your-key-goes-here",
+	"version": "beta"
 }
