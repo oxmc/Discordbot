@@ -1,4 +1,4 @@
 while true do
-node Main.js
+nodemon Main.js
 echo "Restarting Bot.."
 done
