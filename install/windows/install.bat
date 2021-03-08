@@ -9,8 +9,6 @@ npm install discord.js
 npm install --save discord-player
 npm install --save @discordjs/opus
 npm install -g nodemon
-echo removing uneeded files...
-del /F /Q installpi.sh
-del /F /Q start.sh
 echo Starting bot...
+cd ..
 start.bat
