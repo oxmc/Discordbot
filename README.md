@@ -4,7 +4,7 @@ This is a simple discord bot made with disord.js
 
 # Setup
 
-First before installing any thing, make a discord bot at the <a href="">Discord developer portal</a>.
+First before installing any thing, make a discord bot at the <a href="https://discord.com/developers/applications">Discord developer portal</a>.
 
 Then get the bot's client id.
 
