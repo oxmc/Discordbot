@@ -5,6 +5,7 @@ curl https://nodejs.org/dist/v14.15.4/node-v14.15.4-x64.msi --output nodejsinsta
 nodejsinstall.msi
 set /p DUMMY=Hit ENTER to continue...
 echo Installing required packages...
+npm install
 npm install discord.js
 npm install --save discord-player
 npm install --save @discordjs/opus
