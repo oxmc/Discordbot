@@ -1,11 +1,14 @@
 @echo off
 echo installing...
 echo Downloading nodejs...
-curl https://nodejs.org/dist/v14.15.4/node-v14.15.4-x64.msi
+curl https://nodejs.org/dist/v14.15.4/node-v14.15.4-x64.msi --output nodejsinstall.msi
+nodejsinstall.msi
 set /p DUMMY=Hit ENTER to continue...
 echo Installing required packages...
 npm install discord.js
-npm i discord-music-system
-npm i nodemon
+rem npm i discord-music-system
+npm install --save discord-player
+npm install --save @discordjs/opus
+npm install -g nodemon
 echo Starting bot...
 start.bat
