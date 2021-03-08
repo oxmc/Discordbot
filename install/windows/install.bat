@@ -10,5 +10,4 @@ npm install --save discord-player
 npm install --save @discordjs/opus
 npm install -g nodemon
 echo Starting bot...
-cd ..
 start.bat
