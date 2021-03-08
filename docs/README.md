@@ -40,7 +40,7 @@ Now, run the command `git` again in cmd, if it says something other that `git is
 
 Clone the repository by running `git clone https://github.com/oxmc/Discordbot`
 
-Now run `cd Discordbot`
+Now run `cd Discordbot\install\windows`
 
 Then run `install.bat`
 
@@ -58,7 +58,9 @@ Then uzip the file to where ever you want,
 
 Then open cmd and cd into the directory where you unzipped the file,
 
-Then run `install.bat`
+Then run `cd Discordbot\install\windows`
+
+Then run`install.bat`
 
 Done!
 
@@ -68,4 +70,12 @@ Note: Run install.bat by double clicking it or if in cmd cd into the directory c
 
 # RaspberryPi
 
-if on raspberrypi run installpi.sh
+if on raspberrypi make sure git is installed by running `sudo apt install git`
+
+then run `cd Discordbot/install/raspberrypi`
+
+Finally run `installpi.sh`
+
+Done!
+
+The bot should now be running, check the server you added the bot to.
