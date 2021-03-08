@@ -29,26 +29,26 @@ First install nodejs <a href="https://nodejs.org">Nodejs for windows</a>, run th
 
 # Using git
 
-First make sure git is installed by running the command 'git' in cmd.
+First make sure git is installed by running the command `git` in cmd.
 
-If windows says "git is not recognized as an internal or external command", Then git is not installed,
+If windows says `git is not recognized as an internal or external command`, Then git is not installed,
 To install it goto <a href="">Git for windows</a>, and download the installer and run it, complete setup as normal and wait for it to finish.
 
 Remember to close cmd and open it agin to ensure git is added to the commands list.
 
-Now, run the command 'git' again in cmd, if it says something other that "", you are now good to go!
+Now, run the command `git` again in cmd, if it says something other that `git is not recognized as an internal or external command`, you are now good to go!
 
-Clone the repository by running 'git clone https://github.com/oxmc/Discordbot'
+Clone the repository by running `git clone https://github.com/oxmc/Discordbot`
 
-Now run 'cd Discordbot'
+Now run `cd Discordbot`
 
-Then run 'install.bat'
+Then run `install.bat`
 
 Done!
 
 The bot should now be running, check the server you added the bot to.
 
-Note: Run install.bat by double clicking it or if in cmd cd into the directory containing this file and type 'install.bat' and hit enter.
+Note: Run install.bat by double clicking it or if in cmd cd into the directory containing this file and type `install.bat` and hit enter.
 
 # Manualy installing it
 
@@ -58,7 +58,7 @@ Then uzip the file to where ever you want,
 
 Then open cmd and cd into the directory where you unzipped the file,
 
-Then run 'install.bat'
+Then run `install.bat`
 
 Done!
 
