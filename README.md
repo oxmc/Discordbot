@@ -32,7 +32,7 @@ First install nodejs <a href="https://nodejs.org">Nodejs for windows</a>, run th
 First make sure git is installed by running the command `git` in cmd.
 
 If windows says `git is not recognized as an internal or external command`, Then git is not installed,
-To install it goto <a href="">Git for windows</a>, and download the installer and run it, complete setup as normal and wait for it to finish.
+To install it goto <a href="https://git-scm.com/download/win">Git for windows</a>, and download the installer and run it, complete setup as normal and wait for it to finish.
 
 Remember to close cmd and open it agin to ensure git is added to the commands list.
 
