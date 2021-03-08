@@ -1,5 +1,5 @@
 @echo off
 :main
-node Main.js
+nodemon ./Main.js
 echo Restarting Bot..
 goto main
