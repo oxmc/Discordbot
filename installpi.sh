@@ -5,7 +5,7 @@ rm -rf start.bat
 echo "Installing nodejs and required packages..."
 sudo apt install nodejs -y
 npm install discord.js
-npm i discord-music-system
+#npm i discord-music-system
 npm i nodemon
 echo "Starting bot..."
 bash start.sh
