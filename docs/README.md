@@ -6,13 +6,13 @@ This is a simple discord bot made with disord.js
 
 First before installing any thing, make a discord bot at the <a href="https://discord.com/developers/applications">Discord developer portal</a>.
 
-![Create bot gif](./docs/readmeassets/gifs/addbot.gif)
+![Create bot gif](https://raw.githubusercontent.com/oxmc/Discordbot/main/docs/readmeassets/gifs/addbot.gif)
 
 Then get the bot's client id.
 
 After you made the bot and got the client id change the word ID with your bot's client id
 
-![Bot added to server gif](./docs/readmeassets/gifs/botadded.gif)
+![Bot added to server gif](https://raw.githubusercontent.com/oxmc/Discordbot/main/docs/readmeassets/gifs/botadded.gif)
 
 After adding it to your server we can now start installing it.
 
